@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40e5e94b-f572-40e8-a00c-f43db9144358" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/af/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/af/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfArrays.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,18 +34,18 @@
     <session id="909930832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="10" />
-          <entry key="java" value="5" />
+          <entry key="gradle" value="11" />
+          <entry key="java" value="6" />
           <entry key="pro" value="2" />
           <entry key="properties" value="5" />
           <entry key="xml" value="8" />
@@ -60,8 +53,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="5" />
+          <entry key="Groovy" value="11" />
+          <entry key="JAVA" value="6" />
           <entry key="ProGuard File" value="2" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="8" />
@@ -70,16 +63,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="19" />
-          <entry key="java" value="307" />
-          <entry key="txt" value="74" />
+          <entry key="java" value="856" />
+          <entry key="txt" value="87" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="19" />
-          <entry key="JAVA" value="307" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="JAVA" value="856" />
+          <entry key="PLAIN_TEXT" value="87" />
           <entry key="XML" value="16" />
         </counts>
       </usages-collector>
@@ -100,16 +93,40 @@
         <entry file="file://$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfText.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfImages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfImages.java">
+        <entry file="file://$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="993">
+              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/af/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -139,14 +156,15 @@
         <option value="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfTime.java" />
         <option value="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfText.java" />
         <option value="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfImages.java" />
+        <option value="$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfArrays.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="124" />
-    <option name="y" value="362" />
-    <option name="width" value="1551" />
-    <option name="height" value="839" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,6 +175,8 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -173,7 +193,22 @@
               <item name="AF" type="1abcf292:AndroidViewProjectNode" />
               <item name="af" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="af" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ee" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AF" type="1abcf292:AndroidViewProjectNode" />
+              <item name="af" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="ee" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="brightapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AF" type="1abcf292:AndroidViewProjectNode" />
+              <item name="af" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="ee" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="brightapps" type="462c0819:PsiDirectoryNode" />
+              <item name="af" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AF" type="1abcf292:AndroidViewProjectNode" />
@@ -183,16 +218,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="fetch&#9;ACTION&#9;Git.Fetch" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="C:/Android/android-sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/apps/exchange-rates" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../af-ux" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,7 +302,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Admin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -292,14 +326,22 @@
       <option name="project" value="LOCAL" />
       <updated>1554281426998</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AfImage added">
+      <created>1554886729157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554886729157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12633263" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12633263" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -311,10 +353,10 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.66997164" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.6691974" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.28633407" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286334" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.28633407" />
       <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -357,7 +399,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Delete app module, add android library module" />
     <MESSAGE value="Project clean-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project clean-up" />
+    <MESSAGE value="AfImage added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AfImage added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -421,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/af/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -456,14 +492,34 @@
     <entry file="file://$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/af/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfImages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/af/src/main/java/ee/brightapps/af/AfArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="993">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
