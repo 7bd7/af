@@ -1,6 +1,28 @@
 package ee.brightapps.af;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 public class AfTime {
+
+    public static String toReadableTime(long timeMillis) {
+        Date date = new Date(timeMillis);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
+        return dateFormat.format(date);
+    }
+
+    public static String toReadableDate(long timeMillis) {
+        Date date = new Date(timeMillis);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy", Locale.getDefault());
+        return dateFormat.format(date);
+    }
+
+    public static String toReadableDateAndTime(long timeMillis) {
+        Date date = new Date(timeMillis);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy HH:mm:ss", Locale.getDefault());
+        return dateFormat.format(date);
+    }
 
     /**
      * Convert millis to human readable time period string, i.e. 3 d. 3:10:15
