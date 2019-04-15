@@ -6,10 +6,14 @@ import android.net.NetworkInfo;
 
 public class AfNetwork {
 
+    //TODO: possible NullPointerException if Connectivity manager not checked for null
     public static boolean isConnected(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
-        return activeNetwork.isConnected();
+        if (cm != null) {
+            NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+            return activeNetwork.isConnected();
+        }
+        return false;
     }
 
 }

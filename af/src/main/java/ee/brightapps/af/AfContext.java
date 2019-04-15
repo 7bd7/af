@@ -1,17 +1,13 @@
 package ee.brightapps.af;
 
 import android.app.Activity;
-import android.content.ClipData;
-import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.LocaleList;
-import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
-import android.widget.Toast;
 
 public class AfContext {
 
@@ -34,16 +30,6 @@ public class AfContext {
         } catch (PackageManager.NameNotFoundException e) {
             return false;
         }
-    }
-
-    /**
-     * @param text - text to be copied
-     * @param toast - Toast msg or null to not show a toast
-     */
-    public static void copyToClipboard(Context context, CharSequence text, @Nullable String toast) {
-        ClipboardManager clipboard = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
-        clipboard.setPrimaryClip(ClipData.newPlainText(text, text));
-        if (toast != null) Toast.makeText(context, toast, Toast.LENGTH_SHORT).show();
     }
 
     public static boolean isRtl(Context context) {
