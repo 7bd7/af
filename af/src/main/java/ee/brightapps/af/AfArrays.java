@@ -61,6 +61,10 @@ public class AfArrays {
         return result;
     }
 
+    /**
+     * Find index of the object in the array
+     * @return -1 if object not fount in the array
+     */
     public static int indexOf(@NonNull Object object, Object... arr) {
         for (int i = 0; i < arr.length; i++) {
             if (object.equals(arr[i])) return i;
